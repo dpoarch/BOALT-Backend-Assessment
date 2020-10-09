@@ -49,7 +49,7 @@ Some screenshot of the results:
 }
 
 ```
-![Alt text](screenshots/1.jpg?raw=true "Register")
+![Alt text](https://github.com/dpoarch/BOALT-Backend-Assessment/blob/main/screenshots/1.JPG "Register")
 
 
 2. To login enter the following url on postman http://127.0.0.1:8000/api/login the Method is [POST] and the json format(after logging in save the acess_token to a notepad)
@@ -62,18 +62,18 @@ Some screenshot of the results:
 
 ```
 
-![Alt text](screenshots/2.jpg?raw=true "Login")
+![Alt text](https://github.com/dpoarch/BOALT-Backend-Assessment/blob/main/screenshots/2.JPG "Login")
 
 3. Get User Information http://127.0.0.1:8000/api/user copy the acces_token and on postman navigate to Authorization and select Bearer Token and paste the following Token the method is [GET]
 
 
-![Alt text](screenshots/3.jpg?raw=true "User Info")
+![Alt text](https://github.com/dpoarch/BOALT-Backend-Assessment/blob/main/screenshots/3.JPG "User Info")
 
 
 
 4. Get all data of Notification http://127.0.0.1:8000/api/notification/all using method of [GET]
 
-![Alt text](screenshots/4.jpg?raw=true "All Notification")
+![Alt text](https://github.com/dpoarch/BOALT-Backend-Assessment/blob/main/screenshots/4.JPG "All Notification")
 
 
 5. Create a new notification http://127.0.0.1:8000/api/notification the method is [POST] and the json format(Copy the user id on Get User Information)
@@ -86,7 +86,7 @@ Some screenshot of the results:
 
 ```
 
-![Alt text](screenshots/5.jpg?raw=true "Create")
+![Alt text](https://github.com/dpoarch/BOALT-Backend-Assessment/blob/main/screenshots/5.JPG "Create")
 
 6. Update notification http://127.0.0.1:8000/api/notification the method is [PUT] and the json format
 
@@ -99,13 +99,13 @@ Some screenshot of the results:
 
 ```
 
-![Alt text](screenshots/6.jpg?raw=true "Update")
+![Alt text](https://github.com/dpoarch/BOALT-Backend-Assessment/blob/main/screenshots/6.JPG "Update")
 
 7. Delete notification http://127.0.0.1:8000/api/notification/delete/{id} the method is [DELETE] and just replace the {} as notification id
 
-![Alt text](screenshots/7.jpg?raw=true "Delete")
+![Alt text](https://github.com/dpoarch/BOALT-Backend-Assessment/blob/main/screenshots/7.JPG "Delete")
 
 8. User Session Logout http://127.0.0.1:8000/api/logout the method is [GET] navigate again to Authorization and select Bearer Token
 
 
-![Alt text](screenshots/8.jpg?raw=true "Logout user")
+![Alt text](https://github.com/dpoarch/BOALT-Backend-Assessment/blob/main/screenshots/8.JPG "Logout user")
